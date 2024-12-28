@@ -1,5 +1,5 @@
 import { BasePolicy } from "@ioc:Adonis/Addons/Bouncer";
-import User from "App/Models/User";
+import User from "App/Models/user";
 import Cliente from "App/Models/Cliente";
 
 export default class ClientePolicy extends BasePolicy {

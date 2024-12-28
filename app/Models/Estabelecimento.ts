@@ -22,9 +22,10 @@ export default class Estabelecimento extends BaseModel {
   @column()
   public nome: string;
 
-  @column({
-    consume: (value) => (value == null ? value : Env.get("API_URL") + value),
-  })
+  // @column({
+  //   consume: (value) => (value == null ? value : Env.get("API_URL") + value),
+  // })
+  @column()
   public logo: string | null;
 
   @column()

@@ -18,9 +18,10 @@ export default class Produto extends BaseModel {
   @column()
   public ativo: boolean;
 
-  @column({
-    consume: (value) => (value == null ? value : Env.get("API_URL") + value),
-  })
+  // @column({
+  //   consume: (value) => (value == null ? value : Env.get("API_URL") + value),
+  // })
+  @column()
   public imagem: string | null;
 
   @column()

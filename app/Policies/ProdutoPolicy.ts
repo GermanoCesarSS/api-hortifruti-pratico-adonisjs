@@ -1,7 +1,7 @@
 import Categoria from "App/Models/Categoria";
 import Estabelecimento from "App/Models/Estabelecimento";
 import { BasePolicy } from "@ioc:Adonis/Addons/Bouncer";
-import User from "App/Models/User";
+import User from "App/Models/user";
 
 export default class ProdutoPolicy extends BasePolicy {
   public async isOwner(user: User, categoria_id: number) {

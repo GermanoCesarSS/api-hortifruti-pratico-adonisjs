@@ -1,7 +1,7 @@
 import type { HttpContextContract } from "@ioc:Adonis/Core/HttpContext";
 import Database from "@ioc:Adonis/Lucid/Database";
 import Cliente from "App/Models/Cliente";
-import User from "App/Models/User";
+import User from "App/Models/user";
 import CreateClienteValidator from "App/Validators/CreateClienteValidator";
 import EditClienteValidator from "App/Validators/EditClienteValidator";
 

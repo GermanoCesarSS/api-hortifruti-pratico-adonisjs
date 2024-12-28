@@ -1,5 +1,5 @@
 import Bouncer from "@ioc:Adonis/Addons/Bouncer";
-import User from "App/Models/User";
+import User from "App/Models/user";
 
 export const { actions } = Bouncer.define(
   "UserIsEstabelecimento",

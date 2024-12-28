@@ -3,7 +3,7 @@ import Cidade from "App/Models/Cidade";
 import CidadesEstabelecimento from "App/Models/CidadesEstabelecimento";
 import Estabelecimento from "App/Models/Estabelecimento";
 import Pedido from "App/Models/Pedido";
-import User from "App/Models/User";
+import User from "App/Models/user";
 import UpdateEstabelecimentoValidator from "App/Validators/UpdateEstabelecimentoValidator";
 import Drive from "@ioc:Adonis/Core/Drive";
 
